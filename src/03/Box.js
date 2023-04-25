@@ -218,9 +218,7 @@ const Box = () => {
               <th scope="col">증감</th>
             </tr>
           </thead>
-          <tbody>
             <BoxRows mb={mblist}/>
-          </tbody>
         </table>
       </article>
     </main>
