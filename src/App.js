@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 // import Hello from './01/hello';
-// import MyClock from './02/MyClock';
- import Box from './03/Box';
+//import MyClock from './02/MyClock';
+  // import Box from './03/Box';
+  import Frcst from './05/Frcst';
 // import NewFile from './04/NewFile';
 function App() {
   return (
@@ -19,9 +20,10 @@ function App() {
     //     </main>
     //   </header>
     // </div>
+    <Frcst />
 
-    // <MyClock/>
-     <Box />
+    //<MyClock/>
+    //  <Box />
     // <NewFile />
   );
 }

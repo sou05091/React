@@ -1,5 +1,6 @@
+
 import MyClockImage from "./MyClockImage";
-import MyClockTime from "./MyClockTime1";
+import MyClockTime from "./MyClockTime";
 import '../App.css';
 const MyClock = () => {
     return(
