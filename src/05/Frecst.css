@@ -1,0 +1,7 @@
+.dt{
+    display: inline-flex;
+    background-color: aquamarine;
+    justify-content: center;
+    height: 40px;
+    border-radius: 10%;
+}
