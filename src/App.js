@@ -1,16 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 // import Hello from './01/hello';
 //import MyClock from './02/MyClock';
-  // import Box from './03/Box';
-  import Frcst from './05/Frcst';
+// import Box from './03/Box';
+// import Frcst from './05/Frcst';
 // import NewFile from './04/NewFile';
+// import Tacident from './06/Tacident';
+import MyRef from "./07/MyRef";
 function App() {
   return (
     // <div className="App">
     //   <header className="App-header">
     //     {/* <img src={logo} className="App-logo" alt="logo" /> */}
-    //     <main className = 'container'> 
+    //     <main className = 'container'>
     //       <article data-theme="dark">
     //         <img src={logo} className="App-logo" alt="logo" />
     //         <footer>
@@ -20,7 +22,9 @@ function App() {
     //     </main>
     //   </header>
     // </div>
-    <Frcst />
+    // <Frcst />
+    // <Tacident />
+    <MyRef />
 
     //<MyClock/>
     //  <Box />
