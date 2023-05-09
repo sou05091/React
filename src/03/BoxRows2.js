@@ -5,7 +5,7 @@ import "./BoxRow.css";
 const BoxRows = ({ mb }) => {
   // const mblist = [...probs.mblist]
   console.log("Boxrows", mb);
-  const [footTag, setFootTag] = useState();
+  const [footTag, setFootTag] = useState('');
   //클릭된 자료확인
   const showMv = (row) => {
     console.log(row);
