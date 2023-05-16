@@ -1,0 +1,21 @@
+.btDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btDiv > button {
+    margin-left: 5px;
+}
+.keyword {
+    display: inline-block;
+    background-color: black;
+    color: yellow;
+    border-radius: 10%;
+    margin: 3%;
+}
+.title{
+    display: flex;
+    text-align: center;
+    color: navy;
+}
