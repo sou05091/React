@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>날씨예보</title>
+    <script>
+        function show(){
+            var kn = form1.txt1.value;
+            console.log(kn);
+            alert(kn + "HI");
+        }
+    </script>
+</head>
+<body>
+    
+    <h1>단기예보</h1>
+    <ul>
+        <li>POP</li>
+        <li>강수확률(POP) "%"</li>
+        <li>강수형태(PTY) "%"</li>
+        <li>1시간 강수량(PCP) "%"</li>
+    </ul>
+
+    <h1>초단기예보</h1>
+    <ul>
+        <li>POP</li>
+        <li>강수확률(RN1) "%"</li>
+        <li>강수형태(SKY) "%"</li>
+        <li>1시간 강수량(PCP) "%"</li>
+    </ul>
+
+    <form method="get" action="a.html" name="form1">
+        선택 : <input type="text" name="txt1">
+        <input type="submit" value="확인" onclick="show()">
+    </form>
+</body>
+</html>

@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 // import Hello from './01/hello';
 //import MyClock from './02/MyClock';
@@ -10,7 +10,10 @@ import "./App.css";
 //import Travel from "./08/Travel";
 // import ReTravel from "./08_1/ReTravel"
 // import RouteMain from "./09/RouteMain";
-import Fcst from "./10/Fcst";
+// import Fcst from "./10/Fcst";
+// import CodeView from "./102/CodeView";
+import Cnt from "./11/Cnt";
+import { RecoilRoot } from "recoil";
 function App() {
   return (
     // <div className="App">
@@ -35,7 +38,11 @@ function App() {
     //<Travel />
     // <ReTravel />
     // <RouteMain/>
-    <Fcst />
+    // <Fcst />
+    // <CodeView />
+    <RecoilRoot>
+    <Cnt />
+    </RecoilRoot>
   );
 }
 
